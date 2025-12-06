@@ -24,7 +24,7 @@ void linearsearch(int arr[],int n,int sea){
     for(int i=0;i<n;i++){
         if(arr[i]==sea){
             printf("Element found");
-            break;
+            return;
         }
     }
     printf("Element not found");
